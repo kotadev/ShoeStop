@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    font-size: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* NAVBAR */
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #272D33;
+    color: #FFAF00;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    z-index: 15;
+    position: absolute;
+}
+
+nav img{
+    height: 70px;
+    position: absolute;
+}
+
+nav ul{
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    top: 20%;
+}
+
+nav h3{
+    display: inline;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: #FFAF00;
+}
+
+nav ul li a:hover {
+    color: #e36205;
+}
+
+/* SECTION ONE */
+
+.section-one{
+    background-image: url(images/background-02.jpg);
+    background-position: top;
+}
+
+.heading{
+    text-align: center;
+    float: left;
+    width: 30%;
+    position: absolute;
+    z-index: 15;
+    top: 25%;
+    left: 15%;
+}
+.heading h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 99px;
+    font-weight: 700;
+    
+}
+.heading p{
+    font-size: 25px;
+    margin-bottom: 25px;
+   
+}
+div .heading a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    border-radius: 11px;
+    background-color: #272D33;
+    border: 2px solid #272D33;
+    padding: 5px 10px;
+    color: #FFAF00;
+}
+div .heading a:hover{
+    color: #e36205;
+    text-decoration: none;
+}
+
+/* PARALLAXIE EFFECT */
+#landing {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    z-index: 1;
+}
+  
+
+.layer-01 {
+    background-image: url(images/shoe-01.png);
+    left: 33%;
+    bottom: 20%;
+    z-index: 2;
+    
+}
+    
+.layer-02 {
+    background-image: url(images/shoe-02.png);
+    left: 22%;
+    bottom: 26%;
+    z-index: 3;
+    
+  }
+  .layer-03{
+    background-image: url(images/shoe-03.png);
+    left: 36%;
+    bottom: 42%;
+    z-index: 1;
+    
+  }
+  .layer-04{
+    background-image: url(images/shoe-04.png);
+    left: 33%;
+    bottom: 7%;
+    z-index: 4;
+    
+    background-size: 36%;
+  }
+
+  /* SECOND SECTION */
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}  
+
+.section-two{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: right;
+    overflow: hidden;
+    position: relative;
+    z-index: 11;
+}
+.section-two h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+.slide-1 h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.slide-2 h2{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.slide-3 h2{
+    position: absolute;
+    top: 40%;
+    left: 59%;
+}
+.slide-4 h2{
+    position: absolute;
+    top: 40%;
+    left: 83%;
+}
+.picture-slide{
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 13%;
+    border: 5px solid #E48F00;
+    background-color: #FFF;
+    float: left;
+    
+}
+
+.info-text{
+    position: relative;
+    text-align: center;
+    margin-left: -5%;
+    width: 80%;
+    color: #000;
+}
+
+.indicator li{
+    background-color: #000;
+}
+
+/* THIRD SECTION */
+
+.section-three{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: bottom;
+    overflow: hidden;
+    position: relative;
+    z-index: 11;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 75px;
+    color: #FFAF00;
+    background-color: #272D33;
+}
+
+.footer h4{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
